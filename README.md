@@ -20,8 +20,10 @@ I **highly** recommend the [Andrew Ng lessons](https://youtu.be/6jfw8MuKwpI) abo
 Here is a schema from a super [medium link](https://towardsdatascience.com/one-shot-learning-with-siamese-networks-using-keras-17f34e75bb3d) to understand and apply a classic Siamese Network with Tensorflow.
 ![Siamese Network](https://miro.medium.com/max/1400/1*dFY5gx-Vze3micJ0AMVp0A.jpeg)
 
-There is another version of the Siamese Network but applying another input logic with anchors. Here is a link to understand the [Triplet loss algorithm](https://medium.com/analytics-vidhya/triplet-loss-b9da35be21b8)
+There is another version of the Siamese Network but applying another input logic with triplet loss. Here is a link to understand the [Triplet loss algorithm](https://medium.com/analytics-vidhya/triplet-loss-b9da35be21b8)
 ![Siamese Network with triplet loss](https://i.ytimg.com/vi/d2XB5-tuCWU/maxresdefault.jpg)
+
+You can also watch the Andrew Ng lessons about triplet loss [here](https://www.youtube.com/watch?v=d2XB5-tuCWU&ab_channel=DeepLearningAI).
 
 ---
 
