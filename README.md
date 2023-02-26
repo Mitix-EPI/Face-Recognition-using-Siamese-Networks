@@ -22,8 +22,11 @@ Here is a schema from a super [medium link](https://towardsdatascience.com/one-s
 
 There is another version of the Siamese Network but applying another input logic with triplet loss. Here is a link to understand the [Triplet loss algorithm](https://medium.com/analytics-vidhya/triplet-loss-b9da35be21b8)
 ![Siamese Network with triplet loss](https://i.ytimg.com/vi/d2XB5-tuCWU/maxresdefault.jpg)
+![Triplet loss](./triplet/images/triplet_loss.png)
 
 You can also watch the Andrew Ng lessons about triplet loss [here](https://www.youtube.com/watch?v=d2XB5-tuCWU&ab_channel=DeepLearningAI).
+
+*Note: classic Siamese Network pair implementation is supervised learning while Siamese Network with triplet loss is unsupervised.*
 
 ---
 
