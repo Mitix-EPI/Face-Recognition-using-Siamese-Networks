@@ -2,12 +2,12 @@
 
 ### **Without fine-tunning**
 
-![Classic model](./classic_model.png)
+![Classic model](./images/classic_model.png)
 
 ### **With fine-tunning**
 
 For the fine-tunning, I replaced CNN part by ResNet50 pre-trained model.
-![Finetune model](./finetune_model.png)
+![Finetune model](./images/finetune_model.png)
 
 ---
 
@@ -25,7 +25,6 @@ Here is a table to resume each `.csv` file:
 
 *Do not hesitate to check the content of the csv files because I think there are a lot of informations that I can not summarize in the README*
 
-TODO Insert graph of the accuracy of the best model
 
 ---
 
