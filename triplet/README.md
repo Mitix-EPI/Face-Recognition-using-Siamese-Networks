@@ -13,6 +13,9 @@ Hyperparameters:
 :warning: **Important note** :warning:: I trained the model with my old computer and it crashed when the parameters / training set was too high.
 Even if it's a lite training, the results are promising (for a better training ofc)
 
+![Test 1](./images/res_1.png)
+![Test 2](./images/res_2.png)
+
 ## Sources:
 
 Here are articles that inspired me and helped me during this project
