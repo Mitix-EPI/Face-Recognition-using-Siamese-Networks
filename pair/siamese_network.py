@@ -90,6 +90,9 @@ class SiameseNetwork():
         # Load ResNet50 with imagenet weights
         resnet = ResNet50(input_shape=self.IMG_SHAPE, weights='imagenet', include_top=False)
 
+        for layer in resnet.layers:
+            layer.trainable = False
+
         processed_a = resnet(input_a)
         processed_b = resnet(input_b)
 
