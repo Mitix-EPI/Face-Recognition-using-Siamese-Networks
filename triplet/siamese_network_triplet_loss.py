@@ -166,6 +166,7 @@ class SiameseModel(models.Model):
         return {"loss": self.loss_tracker.result()}
 
     def _compute_loss(self, data):
+        data = data[0] # I don't know why ?? https://github.com/Mitix-EPI/Face-Recognition-using-Siamese-Networks/issues/1#issuecomment-2598117860
         ap_distance, an_distance = self.siamese_network(data)
         loss = tf.maximum(ap_distance - an_distance + self.margin, 0.0)
         return loss
